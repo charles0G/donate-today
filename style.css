@@ -1,3 +1,35 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.bg {
+    background-image: url(Images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.parallel {
+    text-align: center;
+    padding: 150px;
+    color: aliceblue;
+    margin-bottom: 100px;
+}
+
+.parallel1 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.donate-now {
+    text-decoration: none;
+    background-image: linear-gradient(orange, rgb(236, 70, 40));
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 10px;
+    padding-top: 10px;
 }
