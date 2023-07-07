@@ -3,33 +3,109 @@ body {
     margin: 0;
 }
 
+p {
+    font-weight: 500;
+    font-size: 15px;
+}
+
 .bg {
     background-image: url(Images/donation13.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    opacity: 0.9;
 }
 
 .parallel {
     text-align: center;
-    padding: 150px;
+    padding: 160px;
     color: aliceblue;
     margin-bottom: 100px;
 }
 
+.parallel h1 {
+    color: rgb(240, 102, 63);
+}
+
 .parallel1 {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 h1 {
     font-size: 40px;
+    font-weight: 800;
 }
 
 .donate-now {
     text-decoration: none;
-    background-image: linear-gradient(orange, rgb(236, 70, 40));
+    background-color: tomato;
     color: white;
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 10px;
     padding-top: 10px;
+}
+
+.justify {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.border {
+    padding: 40px 40px;
+    border-radius: 5px;
+    background-color: rgb(230, 229, 229);
+}
+
+.extra-border {
+    padding: 40px 40px;
+    border-radius: 5px;
+    background-color: rgb(255, 205, 169);
+    border: 1px solid orangered;
+    font-weight: 700;
+    color: orangered;
+}
+
+.input {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.box {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.flexible {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+
+}
+
+.border1 {
+    padding: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: rgb(174, 214, 216);
+}
+
+.border2 {
+    padding: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 222, 222);
+}
+
+.border3 {
+    padding: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: rgb(250, 240, 228);
 }
